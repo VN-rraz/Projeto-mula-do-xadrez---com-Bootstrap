@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'manga';
+    src: url('fontes/Manga Style.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chess';
+    src: url('fontes/ChessType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pecachess';
+    src: url('fontes/CHEQ_TT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor01: #eedcf8;
+    --cor02: #dab8f1;
+    --cor03: #61599E;
+    --cor04: #690101;
+    --cor05: #79141498;
+   
+    --fonteManga: 'manga', Arial, Helvetica, sans-serif;
+    --fonteChess: 'chess', Arial, Helvetica, sans-serif;
+    --fontePecachess: 'pecachess', Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: justify;
+    background-image: linear-gradient(to top,#eedcf8,#f9f1fd,#dab8f1 );
+    background-attachment: fixed;
+   
+    margin: 0px;
+}
+header > h1{
+    margin: auto;
+    padding: 20px;
+
+    background-color: #61599e49;
+
+    min-width: 320px;
+
+
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.541) 0px 5px 10px;
+}
+header > nav{
+    margin: auto;
+    padding: 0px;
+
+    background-color: #61599e49;
+
+    min-width: 320px;
+
+
+
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.541) 0px 5px 10px;
+}
+main{
+    margin: auto;
+    padding: 10px;
+
+    max-width: 800px;
+    min-width: 320px;
+
+    text-align: justify;
+    
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+main > #video{
+
+    max-width: 600px;
+    min-width: 320px;
+
+    margin: auto;
+}
+header > h1{
+    color: whitesmoke;
+}
+h1{
+    font-family: 'work sans',sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: var(--cor03);
+    font-weight: bold;
+
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+h2{
+    font-family: 'work sans',sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor03);
+    font-weight: bold;
+}
+h3{
+    font-family: 'work sans',sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--cor03);
+    font-weight: bold;
+}
+p{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 30px;
+}
+footer{
+    background-color:  #61599e7c;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+
+    margin: auto;
+    padding: 0px;
+
+    max-width: 800px;
+    min-width: 320px;
+}
+#video,.link{
+    text-align: center;
+    }
+#imgvideo{
+    border: 7px solid whitesmoke;
+    border-radius: 30px;
+}
+#foto{
+    border: 7px solid whitesmoke;
+    border-radius: 30px;
+}
+.card{
+    text-align: center;
+    background-color: #dab8f18f;
+    border-radius: 15px;
+
+}
+.card-body > p{
+    display: none; 
+}
+.card-body > a{
+    background-color: var(--cor02);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    border-color: var(--cor04);
+}
+.card-body > a:hover{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    border-color: var(--cor03);
+}
+.card-img-top{
+    border-radius: 15px 15px 0px 0px;
+}
+ul{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+a{
+    font-family: 'work sans', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: var(--cor04);
+    text-decoration: none;
+}
+a:visited{
+    color: #79141498;
+}
+#chesscom{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+#chesscom:active{
+    color: var(--cor03);
+}
+#chesscom:hover{
+    color: red;
+}
+#chesscom::after{
+    content: ' (site seguro)';
+    color: var(--cor03);
+}
+.menu{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+.menu > a{    
+    background-color: var(--cor02);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px;
+    border-color: var(--cor04);
+}
+.menu > a:hover{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    border-color: var(--cor03);
+}
+.peças{
+text-align: center;
+}
+mark{
+    background-color: var(--cor02);
+}
+.menuarena{
+    text-align: center;
+}
+.menuarena > p{
+    display: none;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 20px 1px 1px;
+}
+.menuarena:hover > p{
+    display: inline-block;
+    border: solid #61599E;
+    border-radius: 20px;
+}
+.menuarena:hover > #menugame{
+    display: none;
+}
+.menuarena > #modogame{
+    display: none;
+}
+.menuarena:hover > #modogame{
+    display: block;
+    color: var(--cor02);
+    background-color: var(--cor03);
+    border: 3px dashed #dab8f1;
+    border-radius: 20px;
+}
+.playzone{
+    font-family: var(--fonteManga);
+    font-size: 1.8em;
+
+}
+#tabuleiro{
+    font-family: var(--fontePecachess);
+    font-size: 2em;
+    text-align: center;
+}
+#playzoneaviso{
+    font-family: var(--fonteChess);
+    font-size: 1.5em;
+    text-align: center;
+}
+#explicatabuleiro{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+#explicatabuleiro:hover > p{
+    display: block;
+}
+#explicatabuleiro > p{
+    display: none;
+}
+#explicatabuleiro:hover > h3{
+   display: none;
+}
+#explicatabuleiro > h1{
+    display: none;
+}
+#explicatabuleiro:hover > h1{
+    display: block;
+}
